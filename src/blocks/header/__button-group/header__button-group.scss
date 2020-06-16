@@ -7,7 +7,8 @@
   }
   .sign-up{
     color:$sign-color;
-    font-style: 18px;
+    font-style: normal;
+    font-size: 18px;
     line-height: 21px;
     border:none;
     background-color: $default-background;
@@ -16,7 +17,8 @@
     border-left: 1px solid $border-color;
   }
   .login{
-    font-style: 18px;
+    font-style: normal;
+    font-size: 18px;
     line-height: 21px;
     color:$default-background;
     background-color: $sign-color;
