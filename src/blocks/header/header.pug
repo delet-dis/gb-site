@@ -1,7 +1,10 @@
-include ../page-logo/page-logo.pug
-include ../search-input/search-input.pug
+include ./__page-logo/header__page-logo.pug
+include ./__search-input/header__search-input.pug
+include ./__navigation/header__navigation.pug
+include ./__button-group/header__button-group.pug
 mixin page-header
   header.page-header
     +page-logo
     +search-input
-  
+    +navigation
+    +button-group
