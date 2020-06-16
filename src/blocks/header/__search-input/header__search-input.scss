@@ -1,5 +1,11 @@
 .search-input{
-  background: url("/../blocks/header/__search-input/header__search-input-icon.svg") no-repeat;
+  background: url("/../blocks/header/__search-input/header__search-input-icon.svg") no-repeat center left;
   border:none;
   padding-left: 38px;
+  font-style: normal;
+  font-weight: normal;
+  font-style: 18px;
+  line-height: 21px;
+  color:$input-color;
+  outline: none;
 }
