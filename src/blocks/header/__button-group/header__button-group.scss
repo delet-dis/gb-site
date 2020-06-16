@@ -1,8 +1,20 @@
 @import "../../../colors/colors.scss";
-.sign-up{
-  color:$sign-color;
-  font-style: 18px;
-  line-height: 21px;
-  border:none;
-  background-color: $default-background;
+.button-group{
+  height:100%;
+  .sign-up{
+    color:$sign-color;
+    font-style: 18px;
+    line-height: 21px;
+    border:none;
+    height: 100%;
+    background-color: $default-background;
+  }
+  .login{
+    font-style: 18px;
+    line-height: 21px;
+    color:$default-background;
+    background-color: $sign-color;
+    border:none;
+    height: 100%;
+  }
 }
