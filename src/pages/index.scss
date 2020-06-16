@@ -1,5 +1,6 @@
 @import "../blocks/indents-normalize/normalize.scss";
 @import "../blocks/header/header.scss";
 @import "../colors/colors.scss";
+@import "../fonts/fonts.scss";
 @include normalize;
-
+@include fonts;
