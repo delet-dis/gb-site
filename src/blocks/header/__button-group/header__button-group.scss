@@ -1,13 +1,19 @@
 @import "../../../colors/colors.scss";
 .button-group{
   height:100%;
+  .button{
+    height: 100%;
+    cursor: pointer;
+  }
   .sign-up{
     color:$sign-color;
     font-style: 18px;
     line-height: 21px;
     border:none;
-    height: 100%;
     background-color: $default-background;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-left: 1px solid $border-color;
   }
   .login{
     font-style: 18px;
@@ -15,6 +21,7 @@
     color:$default-background;
     background-color: $sign-color;
     border:none;
-    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }

@@ -1,8 +1,12 @@
 @import "../../../colors/colors.scss";
-.navigation-link{
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 21px;
-  color:$link-color;
-  margin-right:18px;
+.navigation{
+  margin-right:44px;
+  margin-left:auto;
+  .navigation-link{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    color:$link-color;
+    margin-right:18px;
+  }
 }
