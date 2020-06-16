@@ -1,7 +1,9 @@
+@import "../../colors/colors.scss";
 .page-header{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 35px;
   padding-bottom: 35px;
+  border-bottom:1px solid $border-color;
 }
