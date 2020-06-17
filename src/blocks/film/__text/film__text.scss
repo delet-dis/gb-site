@@ -2,4 +2,20 @@
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
+  margin-bottom: 16px;
+}
+.film-subtitle{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color:$input-color;
+  margin-bottom:32px;
+  display: block;
+}
+.film-description{
+  max-width:514px;
+  font-size: 14px;
+  line-height: 150%;
+  color:black;
 }
