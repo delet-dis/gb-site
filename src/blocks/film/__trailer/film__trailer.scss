@@ -2,11 +2,12 @@
 .film-trailer{
   display:flex;
   flex-direction: column;
-}
-.poster{
-  border-top-left-radius:5px;
-  border-top-right-radius:5px;
-  width: 358px;
+  margin-right:40px;
+  .poster{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    width: 358px;
+  }
 }
 .trailer-button{
   background-color:$default-background;
@@ -17,8 +18,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  .trailer-button-icon{
+    margin-right: 14px;
+  }
 }
 
-.trailer-button-icon{
-  margin-right: 14px;
-}
