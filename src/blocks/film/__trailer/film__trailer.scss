@@ -1,0 +1,15 @@
+@import "../../../colors/colors.scss";
+.film-trailer{
+  display:flex;
+  flex-direction: column;
+}
+.poster{
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  width: 358px;
+}
+.trailer-button{
+  background-color:$default-background;
+  border:1px solid $border-color;
+  border-radius: 0px 0px 5px 5px;
+}
