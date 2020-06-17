@@ -1,6 +1,6 @@
-mixin card
+mixin card(imgNumber, h3Name, spanEnName)
   div.card
-    img(src="../blocks/cast/__tabs/-content/__card/1.png").card-image
+    img(src="../blocks/cast/__tabs/-content/__card/"+ imgNumber + ".png").card-image
     div.card-text
-      h3.name Кэрри Кун
-      span.en-name Carrie Coon
+      h3.name= h3Name
+      span.en-name= spanEnName
