@@ -1,6 +1,9 @@
+include ./__trailer/film__trailer
+include ./__text/film__text
 mixin film
   div.film
     div.container
       div.film-wrapper
-        div.bruh
+        +film-trailer
+        +film-description
   
