@@ -1,1 +1,14 @@
 @import "../../colors/colors.scss";
+@import "./__trailer/film__trailer.scss";
+.film{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.container{
+  max-width:1130px;
+  margin:auto;
+}
+.film-wrapper{
+  display:flex;
+
+}
