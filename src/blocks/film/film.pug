@@ -1,9 +1,11 @@
 include ./__trailer/film__trailer
 include ./__text/film__text
+include ./__rating/film__rating
 mixin film
   div.film
     div.container
       div.film-wrapper
         +film-trailer
         +film-text
+        +film-rating
   
