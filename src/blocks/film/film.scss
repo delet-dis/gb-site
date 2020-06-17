@@ -1,9 +1,11 @@
 @import "../../colors/colors.scss";
 @import "./__trailer/film__trailer.scss";
 @import "./__text/film__text.scss";
+@import "./__rating/film__rating.scss";
 .film{
   padding-top: 80px;
   padding-bottom: 80px;
+  border-bottom:1px solid $border-color;
 }
 .container{
   max-width:1130px;
