@@ -9,4 +9,7 @@
   color:$input-dark-color;
   outline: none;
   margin-left:34px;
+  &::-webkit-search-cancel-button{
+    cursor: pointer;
+  }
 }
