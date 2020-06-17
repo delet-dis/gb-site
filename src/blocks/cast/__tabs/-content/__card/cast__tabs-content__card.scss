@@ -1,6 +1,8 @@
 .card{
   display:flex;
   align-items: center;
+  flex-basis: 25%;
+  margin-bottom: 35px;
 }
 .card-image{
   width:100px;
