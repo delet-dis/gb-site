@@ -2,16 +2,19 @@
 @import "./__trailer/film__trailer.scss";
 @import "./__text/film__text.scss";
 @import "./__rating/film__rating.scss";
-.film{
+
+.film {
   padding-top: 80px;
   padding-bottom: 80px;
-  border-bottom:1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
-.container{
-  max-width:1130px;
-  margin:auto;
+
+.container {
+  max-width: 1130px;
+  margin: auto;
 }
-.film-wrapper{
-  display:flex;
+
+.film-wrapper {
+  display: flex;
 
 }

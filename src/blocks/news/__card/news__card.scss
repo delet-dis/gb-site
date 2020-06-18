@@ -1,17 +1,19 @@
-.news-card{
+.news-card {
   flex-basis: 23%;
-  background-color:$default-background;
-  padding:30px;
+  background-color: $default-background;
+  padding: 30px;
   border-radius: 5px;
-  .news-date{
+
+  .news-date {
     font-size: 14px;
     line-height: 16px;
   }
-  .news-title{
-    font-weight:bold;
+
+  .news-title {
+    font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    color:black;
+    color: black;
     margin-top: 14px;
   }
 }

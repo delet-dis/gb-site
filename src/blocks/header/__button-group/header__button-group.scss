@@ -1,55 +1,63 @@
 @import "../../../colors/colors.scss";
-.button-group{
-  height:100%;
-  .button{
+
+.button-group {
+  height: 100%;
+
+  .button {
     height: 100%;
     cursor: pointer;
-    outline:none;
+    outline: none;
   }
-  .sign-up{
-    color:$light-blue;
+
+  .sign-up {
+    color: $light-blue;
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
-    border:none;
+    border: none;
     background-color: $default-background;
     padding-left: 34px;
     padding-right: 34px;
     border-left: 1px solid $border-color;
   }
-  .login{
+
+  .login {
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
-    color:$default-background;
+    color: $default-background;
     background-color: $light-blue;
-    border:none;
+    border: none;
     padding-left: 50px;
     padding-right: 50px;
   }
 }
-.mobile-buttons{
-  display:none;
+
+.mobile-buttons {
+  display: none;
 }
+
 .m-menu-button,
-.m-search-button{
+.m-search-button {
   width: 20px;
   height: 20px;
   background-color: $default-background;
-  border:none;
-  outline:none;
-  cursor:pointer;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-.menu-line{
-  display:block;
+
+.menu-line {
+  display: block;
   height: 2px;
   width: 16px;
   background-color: black;
   margin-top: 3px;
   margin-bottom: 3px;
-  flex-basis: 16px; 
+  flex-basis: 16px;
   border-radius: 40px;
 }
-.m-search-button{
-  margin-right:20px;
+
+.m-search-button {
+  margin-right: 20px;
 }

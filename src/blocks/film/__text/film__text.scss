@@ -1,42 +1,48 @@
-.film-title{
+.film-title {
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 16px;
 }
-.film-subtitle{
+
+.film-subtitle {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-  color:$gray;
-  margin-bottom:32px;
+  color: $gray;
+  margin-bottom: 32px;
   display: block;
 }
-.film-description{
-  max-width:514px;
+
+.film-description {
+  max-width: 514px;
   font-size: 14px;
   line-height: 150%;
-  color:black;
-  margin-bottom:50px;
+  color: black;
+  margin-bottom: 50px;
 }
-.about-film{
-  display:flex;
-  margin-bottom:50px;
+
+.about-film {
+  display: flex;
+  margin-bottom: 50px;
 }
-.about-text{
-  display:block;
-  margin-right:40px;
-  font-size:16px;
-  line-height:19px;
-  margin-bottom:16px;
-  .about-text-bold{
+
+.about-text {
+  display: block;
+  margin-right: 40px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+
+  .about-text-bold {
     display: inline-block;
-    width:100px;
+    width: 100px;
     vertical-align: top;
     font-weight: bold;
   }
 }
-.left-side{
-  margin-left:40px;
+
+.left-side {
+  margin-left: 40px;
 }

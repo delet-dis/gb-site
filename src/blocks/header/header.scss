@@ -3,17 +3,19 @@
 @import "./__navigation/header__navigation.scss";
 @import "./__button-group/header__button-group.scss";
 @import "./__page-logo/header__page-logo.scss";
-.page-header{
+
+.page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height:104px;
-  border-bottom:1px solid $border-color;
-  padding-left:34px;
+  height: 104px;
+  border-bottom: 1px solid $border-color;
+  padding-left: 34px;
 }
-.separator{
-  height:100%;
+
+.separator {
+  height: 100%;
   width: 1px;
-  background-color:$border-color;
+  background-color: $border-color;
   margin-left: 34px;
 }

@@ -1,12 +1,14 @@
 @import "../../../colors/colors.scss";
-.navigation{
-  margin-right:44px;
-  margin-left:auto;
-  .navigation-link{
+
+.navigation {
+  margin-right: 44px;
+  margin-left: auto;
+
+  .navigation-link {
     text-decoration: none;
     font-size: 18px;
     line-height: 21px;
-    color:$dark-text;
-    margin-right:18px;
+    color: $dark-text;
+    margin-right: 18px;
   }
 }

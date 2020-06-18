@@ -1,9 +1,10 @@
-.film-rating{
-  display:flex;
+.film-rating {
+  display: flex;
   align-items: center;
 }
-.film-rating-counter{
-  width:100px;
+
+.film-rating-counter {
+  width: 100px;
   height: 100px;
   display: flex;
   align-items: center;
@@ -11,25 +12,28 @@
   border: 1px solid $light-blue;
   box-sizing: border-box;
   border-radius: 10px;
-  margin-right:28px;
+  margin-right: 28px;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
-  color:$light-blue;
+  color: $light-blue;
 }
-.film-rating-title{
+
+.film-rating-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 12px;
 }
-.film-rating-text{
-  display:block;
+
+.film-rating-text {
+  display: block;
   margin-bottom: 7px;
   font-size: 16px;
   line-height: 19px;
-  &-bold{
+
+  &-bold {
     font-weight: bold;
   }
 }
