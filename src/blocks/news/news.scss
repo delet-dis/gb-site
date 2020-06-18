@@ -1,0 +1,16 @@
+@import "./__card/news__card.scss";
+.news{
+  background-color: $default-background-darken;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.section-news-title{
+  font-weight: 900;
+  color: $dark-text;
+  margin-bottom: 65px;
+}
+.news-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
