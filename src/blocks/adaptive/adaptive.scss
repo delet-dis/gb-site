@@ -181,7 +181,9 @@
     display: none;
   }
 }
-
+  .news-card{
+    max-width: 90%;
+  }
 @media(max-width:576px), (pointer:coarse) {
   .container {
     width: 95%;
