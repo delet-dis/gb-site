@@ -23,5 +23,9 @@
     "parcel": "^1.12.4",
     "pug": "^3.0.0",
     "sass": "^1.26.8"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "jquery": "^3.5.1"
   }
 }

@@ -9,10 +9,13 @@ html(lang='ru')
     mta(name='viewport',
     content='width=device-width, inital-scale=1.0')
     link(rel="stylesheet" href="./index.scss")
+    script(type="text/javascript",src="../scripts/jquery/jquery-in-parcel.js")
     include ../fonts/fonts.html
+    include ../scripts/fancybox/layout.html
     title GhostBusters
   body
     +page-header
     +film
     +cast
     +news
+    include ../scripts/fancybox/script.html
