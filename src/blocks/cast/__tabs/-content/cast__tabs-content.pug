@@ -1,6 +1,6 @@
 include ./__card/cast__tabs-content__card
 mixin tabs-content
-  div.tabs-content
+  div.tabs-content.visible#actors
     +card(1, 'Кэрри Кун', 'Carrie Coon')
     +card(2, 'Билл Мюррей', 'Bill Murray')
     +card(3, 'Пол Радд', 'Paul Rudd')
@@ -9,3 +9,12 @@ mixin tabs-content
     +card(6, 'Дэн Эйкройд', 'Dan Aykroyd')
     +card(7, 'Эрни Хадсон', 'Ernie Hudson')
     +card(8, 'Финн Вулфард', 'Finn Wolfhard')
+  div.tabs-content#creators
+    +card(1, 'Кун Кэрри', 'Carrie Coon')
+    +card(2, 'Мюррей Билл', 'Bill Murray')
+    +card(3, 'Радд Пол', 'Paul Rudd')
+    +card(4, 'Поттс Эни', 'Annie Potts')
+    +card(5, 'Грейс МакКенна', 'Mckenna Grace')
+    +card(6, 'Эйкройд Дэн', 'Dan Aykroyd')
+    +card(7, 'Хадсон Эрни', 'Ernie Hudson')
+    +card(8, 'Вулфард Финн', 'Finn Wolfhard')

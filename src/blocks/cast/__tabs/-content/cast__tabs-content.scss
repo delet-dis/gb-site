@@ -1,7 +1,10 @@
 @import "./__card/cast__tabs-content__card.scss";
 
 .tabs-content {
-  display: flex;
+  display: none;
   align-items: center;
   flex-wrap: wrap;
+}
+.tabs-content.visible{
+  display: flex;
 }
