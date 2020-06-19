@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   margin-right: 40px;
-
   .poster {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -23,7 +22,7 @@
   justify-content: center;
   cursor: pointer;
   outline: none;
-
+  text-decoration: none;
   .trailer-button-icon {
     margin-right: 14px;
   }

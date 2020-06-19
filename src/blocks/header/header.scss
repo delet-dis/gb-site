@@ -3,16 +3,20 @@
 @import "./__navigation/header__navigation.scss";
 @import "./__button-group/header__button-group.scss";
 @import "./__page-logo/header__page-logo.scss";
-
+@import "./__mobile-buttons/header__mobile-buttons.scss";
 .page-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 104px;
   border-bottom: 1px solid $border-color;
   padding-left: 34px;
 }
-
+.m-menu{
+  height: 100%;
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
+}
 .separator {
   height: 100%;
   width: 1px;

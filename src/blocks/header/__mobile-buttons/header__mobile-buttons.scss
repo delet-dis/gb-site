@@ -1,0 +1,28 @@
+.mobile-buttons {
+  display: none;
+}
+
+.m-menu-button,
+.m-search-button {
+  width: 20px;
+  height: 20px;
+  background-color: $default-background;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu-line {
+  display: block;
+  height: 2px;
+  width: 16px;
+  background-color: black;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  flex-basis: 16px;
+  border-radius: 40px;
+}
+
+.m-search-button {
+  margin-right: 20px;
+}

@@ -2,10 +2,14 @@ include ./__page-logo/header__page-logo.pug
 include ./__search-input/header__search-input.pug
 include ./__navigation/header__navigation.pug
 include ./__button-group/header__button-group.pug
+include ./__mobile-buttons/header__mobile-buttons.pug
 mixin page-header
   header.page-header
     +page-logo
     div.separator
-    +search-input
-    +navigation
-    +button-group
+    div.m-menu
+      +search-input
+      +navigation
+      div.button-group
+        +button-group
+    +mobile-buttons
