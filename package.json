@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/delet-dis/gb-site#readme",
   "devDependencies": {
-    "parcel": "^1.12.4",
-    "pug": "^3.0.0",
-    "sass": "^1.26.10"
+    "parcel": "1.12.4",
+    "pug": "3.0.0",
+    "sass": "1.26.10"
   },
   "dependencies": {
-    "@fancyapps/fancybox": "^3.5.7",
-    "jquery": "^3.5.1",
-    "swiper": "^5.4.5"
+    "@fancyapps/fancybox": "3.5.7",
+    "jquery": "3.5.1",
+    "swiper": "5.4.5"
   }
 }
